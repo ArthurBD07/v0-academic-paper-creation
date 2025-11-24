@@ -1,30 +1,38 @@
-# Academic paper creation
+# Como rodar o projeto (Passo a passo simples e completo)
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Este guia explica, de forma fácil, como instalar e rodar o projeto no computador.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/arthurnunesa06-4073s-projects/v0-academic-paper-creation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lHSq1ut3PZ2)
+---
 
-## Overview
+## ✅ 1. Instalar o Node.js
+O Node.js é necessário para rodar o programa.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+Baixar aqui:  
+https://nodejs.org/en
 
-## Deployment
+1. Clique em **LTS (Recomendado)**  
+2. Baixe o instalador  
+3. Clique em **Next** até finalizar a instalação  
 
-Your project is live at:
+---
 
-**[https://vercel.com/arthurnunesa06-4073s-projects/v0-academic-paper-creation](https://vercel.com/arthurnunesa06-4073s-projects/v0-academic-paper-creation)**
+## ✅ 2. Abrir o VS Code
 
-## Build your app
+1. Abra o **VS Code**
+2. Clique em **Terminal**
+3. Clique em **New Terminal** (Novo Terminal)
 
-Continue building your app on:
+Um terminal vai abrir na parte inferior.
 
-**[https://v0.app/chat/lHSq1ut3PZ2](https://v0.app/chat/lHSq1ut3PZ2)**
+---
 
-## How It Works
+## ✅ 3. Baixar o projeto do GitHub
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+No terminal do VS Code digite:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd nome_da_pasta_do_projeto
+npm install -g pnpm
+pnpm install
+pnpm dev
