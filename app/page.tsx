@@ -52,7 +52,31 @@ export default function Home() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4 text-balance">Sistema Computacional</h1>
           <p className="text-xl text-muted-foreground mb-2">Fundamentos de Matemática</p>
-          <p className="text-lg text-muted-foreground">Professor Paulo Fernando</p>
+          <p className="text-lg text-muted-foreground mb-6">Professor Paulo Fernando</p>
+
+          <div className="mt-8 max-w-2xl mx-auto">
+            <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur">
+              <CardHeader>
+                <CardTitle className="text-lg">Alunos Participantes</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="text-center p-2 rounded-lg bg-muted/50">
+                    <p className="font-medium">Arthur Nunes</p>
+                  </div>
+                  <div className="text-center p-2 rounded-lg bg-muted/50">
+                    <p className="font-medium">Lucas Augusto</p>
+                  </div>
+                  <div className="text-center p-2 rounded-lg bg-muted/50">
+                    <p className="font-medium">Bernardo Gomes</p>
+                  </div>
+                  <div className="text-center p-2 rounded-lg bg-muted/50">
+                    <p className="font-medium">Erick Ryan</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
